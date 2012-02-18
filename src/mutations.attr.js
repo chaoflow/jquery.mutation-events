@@ -7,6 +7,9 @@
  *
  * Author: Mark Gibson (jollytoad at gmail dot com)
  */
+define([
+    './mutations.core'
+], function() {
 (jQuery.mutations && (function($) {
 
 $.mutations.register({
@@ -77,3 +80,4 @@ $.mutations.register({
 
 })(jQuery));
 
+});
